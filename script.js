@@ -1,1 +1,0 @@
-const t={en:{},es:{},pt:{}};document.querySelectorAll('.langs button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.langs button').forEach(x=>x.classList.remove('active'));b.classList.add('active');localStorage.setItem('lang',b.dataset.lang)}));document.getElementById('year').textContent=new Date().getFullYear();
